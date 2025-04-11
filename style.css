@@ -1,0 +1,50 @@
+body {
+    background-color: bisque;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.landing-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-section, .services-section, .contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.heading {
+    color: black;
+}
